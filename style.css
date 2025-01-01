@@ -1,67 +1,65 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.container{
-      width: 100%;
-      min-height: 100vh;
-      background: linear-gradient(135deg, #4203a9, #90ba);
-      color: #fff;
-      padding: 4%;
-      padding-left: 10%;
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #4203a9, #90ba);
+  color: #fff;
+  padding: 4%;
+  padding-left: 10%;
 }
 
-.container h1{
-    font-size: 35px;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
+.container h1 {
+  font-size: 35px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
 }
-.container h1 img{
-    width: 60px;
+.container h1 img {
+  width: 60px;
 }
 
 .container button i {
-    width: 30px;
-    margin-right: 8px;
+  width: 30px;
+  margin-right: 8px;
 }
 
-.container button{
-    display: flex;
-    align-items: center;
-    background: linear-gradient( #5604d9, rgba(216, 66, 250, 0.667));
-    border-radius: 20px;
-    height: 40px;
-    width: 175px;
-    font-weight: bold;
-    
-    margin-top: 35px;
-    cursor: pointer;
-    
+.container button {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(#5604d9, rgba(216, 66, 250, 0.667));
+  border-radius: 20px;
+  height: 40px;
+  width: 175px;
+  font-weight: bold;
+
+  margin-top: 35px;
+  cursor: pointer;
 }
-.input-box{
-    width: 100%;
-    max-width: 500px;
-    min-height: 150px;
-    background-color: #fff;
-    color: #333;
-    margin-top: 20px;
-    border-radius: 20px;
-    position: relative;
-    outline: none;
-    padding: 10px;
-    padding-right: 40px;
+.input-box {
+  width: 100%;
+  max-width: 500px;
+  min-height: 150px;
+  background-color: #fff;
+  color: #333;
+  margin-top: 20px;
+  border-radius: 20px;
+  position: relative;
+  outline: none;
+  padding: 10px;
+  padding-right: 40px;
 }
 
-.delete{
-    height: 25px;
-    width: 25px;
-    position: absolute;
-    bottom: 15px;
-    right: 15px;
-    cursor: pointer;
-    
+.delete {
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  cursor: pointer;
 }

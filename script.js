@@ -5,7 +5,7 @@ let notes = document.querySelectorAll(".input-box");
 function showUpdate() {
   NotesContainer.innerHTML = localStorage.getItem("notes") || "";
 }
-showUpdate() 
+showUpdate();
 
 function updatestorage() {
   localStorage.setItem("notes", NotesContainer.innerHTML);
@@ -35,10 +35,9 @@ NotesContainer.addEventListener("click", function (e) {
   }
 });
 
-document.addEventListener("keydown", function(e){
-    if(e.key  === "Enter"){
-        document.execCommand("insertLineBreak");
-        e.preventDefault();
-
-    }
-})
+document.addEventListener("keydown", function (e) {
+  if (e.key === "Enter") {
+    document.execCommand("insertLineBreak");
+    e.preventDefault();
+  }
+});
