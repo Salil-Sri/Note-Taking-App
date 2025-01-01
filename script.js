@@ -17,7 +17,7 @@ button.addEventListener("click", () => {
   inputBox.className = "input-box";
   inputBox.setAttribute("contenteditable", "true");
   img.className = "delete";
-  img.src = "/images/remove-folder-removebg-preview.png";
+  img.src = "remove-folder-removebg-preview.png";
   NotesContainer.appendChild(inputBox).appendChild(img);
 });
 
